@@ -10,14 +10,7 @@ def calculate_strike_rate(total_runs, balls_faced):
         str: A message indicating the batsman's strike rate or an error message if input is invalid.
     """
     # Check if the balls faced is zero to prevent division by zero
-    if balls_faced == 0:
-        return "Invalid input: Balls faced cannot be zero. Please try again with a valid number of balls."
-    
-    # Calculate the strike rate using the formula: (Runs / Balls) * 100
-    strike_rate = (total_runs / balls_faced) * 100
-    
-    # Return the formatted strike rate in a user-friendly message
-    return strike_rate
+   ###eturn strike_rate
 
 def main():
     """
