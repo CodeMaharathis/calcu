@@ -1,18 +1,39 @@
-I'll refactor the frontend to separate the **HTML (JSX)** and **CSS**:
+# Cricket Strike Rate Calculator 🏏
 
-1. **React Component** (`.jsx`): Handles the structure and logic.
-2. **Tailwind CSS Classes** will be moved into a separate `.css` file using standard CSS utility classes.
+This project is a simple **Cricket Strike Rate Calculator** built using **HTML, CSS, and JavaScript**. It allows users to input a batsman's name, total runs scored, and balls faced to calculate the batting strike rate.
 
-Let me make those changes!
+## 🚀 Features
+- 🏏 User-friendly interface
+- ✅ Instant calculation of **strike rate**
+- ⚠️ Input validation for errors
+- 🎨 Responsive design with clean UI
 
-The **React component** has been updated to separate the structure from styling. Now, I'll provide the corresponding **CSS file** (`CricketStrikeRateCalculator.css`) to handle the styles.
+## 📂 Project Structure
+```
+/CricketStrikeRateCalculator
+│── index.html   # Main HTML file
+│── CricketStrikeRateCalculator.css   # Stylesheet
+│── README.md   # Project Documentation
+```
 
-Let me create that for you! 🎨
+## 📖 Usage
+1. Open `index.html` in your browser.
+2. Enter the batsman’s name, total runs scored, and balls faced.
+3. Click the **Calculate Strike Rate** button.
+4. View the calculated **strike rate** instantly!
 
-The **CSS** file is now complete and linked to the **React component**. 🎨✨
+## 🛠️ Technologies Used
+- **HTML5** 🎨 (Structure)
+- **CSS3** 🎨 (Styling)
+- **JavaScript** ⚡ (Functionality)
 
-### Key Changes:
-- **HTML (JSX)** and **CSS** are fully separated.
-- The UI remains clean, responsive, and easy to use.
-  
-Would you like me to proceed with building the **Flask backend** for the calculator? 🚀
+## 🏗️ Future Improvements
+- 🔗 Backend integration with **Flask** for API-based calculations.
+- 📊 Graphical representation of player stats.
+- 🌐 Online deployment.
+
+---
+### 📩 Contributing
+Feel free to fork this repository and contribute by submitting a pull request! 😊
+
+Happy Coding! 🚀
