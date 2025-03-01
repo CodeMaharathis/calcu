@@ -46,10 +46,10 @@ def main():
             print(strike_rate)
         else:
             # Display the result to the user
-            print(f"{batsman_name}'s strike rate is {strike_rate:.2f}.")
+           # print(f"{batsman_name}'s strike rate is {strike_rate:.2f}.")
     except ValueError:
         # Handle the case where the input was not a valid integer
-        print("It looks like you entered a non-integer value. Please ensure you input whole numbers for both runs and balls faced.")
+       # print("It looks like you entered a non-integer value. Please ensure you input whole numbers for both runs and balls faced.")
 
 if __name__ == "__main__":
     # Run the main function if this script is executed directly
